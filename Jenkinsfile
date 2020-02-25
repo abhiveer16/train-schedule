@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_IMAGE_NAME = "abhiveer/train-schedule" //DockerHub
+        DOCKER_IMAGE_NAME = "abhiveer/train-schedule" 
     }
     stages {
         stage('Build') {
